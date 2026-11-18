@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.1"
+  version: "0.5.0"
 
 package:
   name: pyfuga
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfuga/pyfuga-${{ version }}.tar.gz
-  sha256: e4af1104776899379065020952b3f29ef42a170020e386d9b4b468c6bac2392c
+  sha256: cc18a6e3259cfff1fa4a7e28460bdd5a0e64f4f129815cfe29ad50f6d33fc4d4
 
 build:
   noarch: python
